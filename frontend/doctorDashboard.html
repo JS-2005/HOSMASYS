@@ -8,7 +8,7 @@
     <title>Dashboard - HOSMASYS</title>
 </head>
 <body>
-    <div class="content">
+    <div id="content" class="vh-100">
         <nav class="navbar navbar-expand-lg navbar-white bg-white border-bottom">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -20,19 +20,19 @@
                 id="logout">name@example.com</button>
             </div>
         </nav>
-        <div class="container-fluid" id="dashboard">
-            <div id="leftPanel">
-                
-            </div>
-            <div id="middlePanel">
-
-            </div>
-            <div id="rightPanel">
-
+        <div class="container-fluid p-0 h-100" id="dashboard">
+            <div class="d-flex flex-column flex-shrink-0 p-3 border-end align-items-center h-100" style="width: 200px; overflow: hidden;">
+                <ul class="nav nav-pills flex-column mb-auto" >
+                <li>
+                    <a href="#" class="nav-link text-black">Appointment</a>
+                </li>
+                <li><a href="#" class="nav-link text-black">Treatment</a>
+                </li>
+                </ul>
             </div>
         </div>
         <footer class="bg-dark text-white text-center py-3 fixed-bottom">
-            <p class="m-0">© 2025 ADMASYS. All rights reserved.</p>
+            <p class="m-0">© 2025 HOSMASYS. All rights reserved.</p>
         </footer>
     </div>
     <script>
